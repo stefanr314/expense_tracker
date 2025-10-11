@@ -1,0 +1,29 @@
+# Virtualno okruženje
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode fajlovi
+.vscode/
+
+# Environment fajlovi (ako koristiš)
+.env
+
+# Build / dist direktoriji
+build/
+dist/
+*.egg-info/
+
+# Migrations (ako koristiš Alembic i ne želiš ih pratiti sve)
+alembic.ini
+
+# Logs
+*.log
+
+# Docker artefakti
+*.pid
